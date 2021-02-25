@@ -1,16 +1,29 @@
 main {
   margin-top: 5%;
   margin-bottom: 5%;
+  font-family: Montserrat;
+  font-weight: 500;
 }
 
 table {
-  width: 60%;
+  width: 70%;
   margin: auto;
 }
 
 td {
-  height: 70px;
-  width: 50px;
+  height: 60px;
+  width: 90px;
+  border: 1px solid black;
+  border-radius: 10px;
+  text-align: center;
+  transition: 0.7s;
+}
+
+td:hover {
+  transform: scale(2.2);
+  background-color: honeydew;
+  height: 60px;
+  width: 90px;
   border: 1px solid black;
   border-radius: 10px;
   text-align: center;
