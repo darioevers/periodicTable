@@ -10,6 +10,7 @@
     <meta name="viewport" content="width=device-width,initial-scale=1" />
     <meta name="author" content="Dario Evers" />
     <meta name="robots" content="noindex" />
+
     <link id="theme" rel="stylesheet" 
         type="text/css" href="css/light.css" /> 
     <link id="theme" rel="stylesheet" 
@@ -20,14 +21,14 @@
       rel="stylesheet"
     />
     <script>
-      function toggleTheme() {
-        var theme = document.getElementsByTagName("link")[0];
-        if (theme.getAttribute("href") == "css/light.css") {
-          theme.setAttribute("href", "css/dark.css");
-        } else {
-          theme.setAttribute("href", "css/light.css");
-        }
-      }
+      function toggleTheme() { 
+            var theme = document.getElementsByTagName('link')[0]; 
+            if (theme.getAttribute('href') == 'css/light.css') { 
+                theme.setAttribute('href', 'css/dark.css'); 
+            } else { 
+                theme.setAttribute('href', 'css/light.css'); 
+            } 
+        } 
     </script>
   </head>
 
