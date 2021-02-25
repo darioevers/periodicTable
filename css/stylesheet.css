@@ -49,7 +49,7 @@ tr:nth-child(4) > td:nth-child(16) {
   background-color: #f5f500;
 }
 
-/* PURPLE */
+/* DARK BLUE */
 tr:nth-child(2) > td:nth-child(1),
 tr:nth-child(3) > td:nth-child(1),
 tr:nth-child(4) > td:nth-child(1),
@@ -58,6 +58,18 @@ tr:nth-child(6) > td:nth-child(1),
 tr:nth-child(7) > td:nth-child(1),
 tr:nth-child(7) > td:nth-child(17) {
   background-color: #667aa3;
+}
+
+/* PURPLE */
+tr:nth-child(1) > td:nth-child(18),
+tr:nth-child(2) > td:nth-child(18),
+tr:nth-child(3) > td:nth-child(18),
+tr:nth-child(4) > td:nth-child(18),
+tr:nth-child(5) > td:nth-child(18),
+tr:nth-child(6) > td:nth-child(18),
+tr:nth-child(7) > td:nth-child(18),
+tr:nth-child(7) > td:nth-child(16) {
+  background-color: #9c7faf;
 }
 
 /* LIGHT BROWN */
@@ -88,4 +100,32 @@ tr:nth-child(5) > td:nth-child(n + 3):nth-child(-n + 12),
 tr:nth-child(6) > td:nth-child(n + 4):nth-child(-n + 12),
 tr:nth-child(7) > td:nth-child(n + 4):nth-child(-n + 12) {
   background-color: #68a762;
+}
+
+/* LIGHT BLUE */
+tr:nth-child(8) > td:nth-child(n + 2):nth-child(-n + 15) {
+  background-color: #3cacf6;
+}
+
+/* GREEN BLUE */
+tr:nth-child(9) > td:nth-child(n + 2):nth-child(-n + 15) {
+  background-color: #559f9f;
+}
+
+/* ORANGE */
+tr:nth-child(2) > td:nth-child(13),
+tr:nth-child(3) > td:nth-child(14),
+tr:nth-child(4) > td:nth-child(n + 14):nth-child(-n + 15),
+tr:nth-child(5) > td:nth-child(n + 15):nth-child(-n + 16),
+tr:nth-child(6) > td:nth-child(16) {
+  background-color: #ff9f7c;
+}
+
+/* PINK */
+tr:nth-child(3) > td:nth-child(13),
+tr:nth-child(4) > td:nth-child(13),
+tr:nth-child(5) > td:nth-child(n + 13):nth-child(-n + 14),
+tr:nth-child(6) > td:nth-child(n + 13):nth-child(-n + 15),
+tr:nth-child(7) > td:nth-child(n + 13):nth-child(-n + 14) {
+  background-color: #ffc8d0;
 }
