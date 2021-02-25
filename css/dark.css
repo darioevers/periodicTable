@@ -32,16 +32,12 @@ td:hover {
 
 /* BORDER REMOVE */
 
-tr:nth-child(1) > td:nth-child(n + 2):nth-child(-n + 17),
-tr:nth-child(2) > td:nth-child(n + 3):nth-child(-n + 12),
-tr:nth-child(3) > td:nth-child(n + 3):nth-child(-n + 12),
-tr:nth-child(6) > td:nth-child(3),
-tr:nth-child(7) > td:nth-child(3),
-tr:nth-child(8) > td:nth-child(1),
-tr:nth-child(8) > td:nth-child(n + 16):nth-child(-n + 18),
-tr:nth-child(9) > td:nth-child(1),
-tr:nth-child(9) > td:nth-child(n + 16):nth-child(-n + 18) {
+td:empty {
   border: none;
+}
+
+td:empty:hover {
+  background-color: transparent;
 }
 
 /* COLOR EDITS */
