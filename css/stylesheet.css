@@ -1,4 +1,17 @@
+main {
+  margin-top: 5%;
+  margin-bottom: 5%;
+}
+
 table {
   width: 60%;
   margin: auto;
+}
+
+td {
+  height: 70px;
+  width: 50px;
+  border: 1px solid black;
+  border-radius: 10px;
+  text-align: center;
 }
